@@ -5,6 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://example.com',
+	site: 'https://suntiparb72-test-site.github.io',
+	base: '/Astro-Testsite',
 	integrations: [mdx(), sitemap()],
 });
